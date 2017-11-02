@@ -1,4 +1,114 @@
-body{
-	background-color: blue;
 
+body{
+	background-color: #005883;
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+
+}
+
+h1{
+	font-size: 40px;
+	color: white;
+	text-align: center;
+	margin: 25px;
+	
+}
+nav.prim{
+	background-color: yellow;
+	width: 1000px;
+	height: 70px;
+	
+	
+}
+nav.seg{
+	background-color: #a7b4b7;
+	width: 300px;
+	height: 300px;
+	
+	
+}
+nav.terc{
+	background-color: #a7b4b7;
+	width: 300px;
+	height: 200px;
+	
+	
+}
+ul.prim{
+	position: relative;	
+	margin: auto;
+	margin-left: 250px;
+	
+}
+nav ul li{
+	list-style-type: none;
+	float: left;
+	padding: 10px;
+	margin: 5px;
+	font-size: 20px;
+	width: 120px;
+	
+}
+section{
+	
+	
+}
+td.first{
+	
+	text-align: justify;
+	font-size: 20px;
+	color: white;
+	margin-top: 50px;
+	padding: 20px 0 0;
+	
+}
+td.second{
+	
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 20px 0 0;
+}
+td.terc{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 0 0 0;
+}
+td.cuart{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 0 0 20px 20px;
+	color: white;
+}
+td.quint{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 0 0 0;
+}
+td.sext{
+	text-align: justify;
+	font-size: 20px;
+	margin-top: 50px;
+	padding: 0 0 20px 20px;
+	color: white;
+}
+.img{
+	text-decoration: none;
+	margin-left: 70px;
+}
+footer{
+	width: 1000px;
+	height: 100px;
+	background-color: Black;
+}
+h4{
+	font-size: 13px;
+	text-align: center;
+	font-style: italic;
+	color: white;
 }
