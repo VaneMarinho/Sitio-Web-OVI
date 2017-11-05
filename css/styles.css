@@ -49,16 +49,13 @@ nav > ul li{
 nav > ul li a{
 	color: white;
 	text-decoration: none;
-}
-nav ul li{
-	list-style-type: none;
-	float: left;
-	padding: 10px;
-	margin: 5px;
-	font-size: 20px;
-	width: 120px;
+	display: block;
+	line-height:20px;
+	position: relative;
+	text-align: center;
 	
 }
+
 section{
 	
 	
