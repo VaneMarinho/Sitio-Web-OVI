@@ -16,54 +16,37 @@ h1{
 	
 }
 
-			nav > ul li {
-				float:left;
-			}
-			
-			nav ul li a {
-				background-color:#000;
-				color:#fff;
-				text-decoration:none;
-				padding:10px 12px;
-				display:block;
-			}
-			
-			nav > ul > li a:hover {
-				background-color:#434343;
-			}
-			
-			nav ul li ul {
-				display:none;
-				position:absolute;
-				min-width:140px;
-			}
-			
-			nav ul li:hover > ul {
-				display:block;
-			}
-			
-			nav ul li ul li {
-				position:relative;
-			}
-			
-			nav ul li ul li ul {
-				right:-140px;
-				top:10px;
-			}
-nav.seg{
-	background-color: #a7b4b7;
-	width: 300px;
-	height: 300px;
+ul, ol{
+	list-style: none;
+}
+nav li a{
+	background-color: #F0B429;
+	color: white;
+	text-decoration: none;
+	padding:15px 60px;
+	display: block;
+	
+}
+
+nav > ul > li{
+	float:left;
+}
+nav li a:hover{
+	background-color: #ffda40;
 	
 	
 }
-nav.terc{
-	background-color: #a7b4b7;
-	width: 300px;
-	height: 200px;
-	
-	
+nav li ul{
+	display:none;
+	position: absolute;
+	min-width: 140px;
 }
+
+nav li:hover > ul{
+	display:block;
+}
+
+
 
 
 section{
@@ -86,35 +69,24 @@ td.second{
 	margin-top: 50px;
 	padding: 20px 0 0;
 }
-td.terc{
-	text-align: justify;
-	font-size: 20px;
-	margin-top: 50px;
-	padding: 0 0 0;
-}
-td.cuart{
-	text-align: justify;
-	font-size: 20px;
-	margin-top: 50px;
-	padding: 0 0 20px 20px;
-	color: white;
-}
-td.quint{
-	text-align: justify;
-	font-size: 20px;
-	margin-top: 50px;
-	padding: 0 0 0;
-}
-td.sext{
-	text-align: justify;
-	font-size: 20px;
-	margin-top: 50px;
-	padding: 0 0 20px 20px;
-	color: white;
-}
+
 .img{
 	text-decoration: none;
 	margin-left: 70px;
+}
+p{
+	text-align: justify;
+	font-size: 20px;
+	color: white;
+	
+	
+}
+h3{
+	text-align: justify;
+	font-size: 23px;
+	color: white;
+	margin-top: 30px;
+	
 }
 footer{
 	width: 1000px;
@@ -124,6 +96,12 @@ footer{
 h4{
 	font-size: 13px;
 	text-align: center;
+	font-style: italic;
+	color: white;
+}
+h5{
+	font-size: 15px;
+	text-align: justify;
 	font-style: italic;
 	color: white;
 }
