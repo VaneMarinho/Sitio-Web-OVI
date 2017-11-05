@@ -45,6 +45,12 @@ nav > ul{
 nav > ul li{
 	display: table-cell;
 }
+nav > ul > li:hover > ul{
+	display: block
+}
+nav > ul > li > ul{
+	display: none;
+}
 
 nav > ul li a{
 	color: white;
