@@ -42,7 +42,13 @@ nav.prim > ul{
 	width: 100%
 	position: relative;
 }
+nav.prim > ul li{
+	display: table-cell;
+}
 
+nav > ul li a{
+	color: white;
+}
 nav ul li{
 	list-style-type: none;
 	float: left;
