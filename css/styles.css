@@ -15,12 +15,7 @@ h1{
 	margin: 25px;
 	
 }
-h3{
-	font-size: 25px;
-	color: white;
-	text-align: center;
-	margin: 25px;
-}
+
 nav.prim{
 	background-color: #F0B429;
 	width: 1000px;
@@ -42,12 +37,12 @@ nav.terc{
 	
 	
 }
-ul.prim{
-	position: relative;	
-	margin: auto;
-	margin-left: 250px;
-	
+nav.prim > ul{
+	display: table;
+	width: 100%
+	position: relative;
 }
+
 nav ul li{
 	list-style-type: none;
 	float: left;
