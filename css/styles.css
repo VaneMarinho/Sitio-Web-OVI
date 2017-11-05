@@ -46,7 +46,7 @@ nav.prim > ul li{
 	display: table-cell;
 }
 
-nav > ul li a{
+nav.prim > ul li a{
 	color: white;
 }
 nav ul li{
