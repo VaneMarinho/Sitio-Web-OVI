@@ -28,7 +28,7 @@ h1{
 				display:block;
 			}
 			
-			nav ul li a:hover {
+			nav > ul > li a:hover {
 				background-color:#434343;
 			}
 			
