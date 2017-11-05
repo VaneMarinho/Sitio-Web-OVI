@@ -15,6 +15,12 @@ h1{
 	margin: 25px;
 	
 }
+h3{
+	font-size: 25px;
+	color: white;
+	text-align: center;
+	margin: 25px;
+}
 nav.prim{
 	background-color: #F0B429;
 	width: 1000px;
