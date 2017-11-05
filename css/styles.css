@@ -17,9 +17,14 @@ h1{
 }
 
 nav{
-	background-color: #F0B429;
-	width: 1000px;
-	height: 70px;
+	top: -20px;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: 20px auto;
+	
+	max-width: 1000px;
+	width:90%;
 	
 	
 }
@@ -37,16 +42,21 @@ nav.terc{
 	
 	
 }
+nav ul{
+	list-style: none;
+}
 nav > ul{
 	display: table;
 	width: 100%
 	position: relative;
+	background: #F0B429;
 }
 nav > ul li{
 	display: table-cell;
 }
 nav > ul > li:hover > ul{
 	display: block
+	height: 100%;
 }
 nav > ul > li > ul{
 	display: block;
@@ -54,6 +64,9 @@ nav > ul > li > ul{
 	background:#F0B429;
 	left: 0;
 	right: 0;
+}
+nav > ul > li > ul > li a:hover {
+	background:#5da5a2;
 }
 
 nav > ul > li > ul{
