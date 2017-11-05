@@ -16,18 +16,40 @@ h1{
 	
 }
 
-nav{
-	top: -20px;
-	position: absolute;
-	left: 0;
-	right: 0;
-	margin: 20px auto;
-	
-	max-width: 1000px;
-	width:90%;
-	
-	
-}
+			nav > ul li {
+				float:left;
+			}
+			
+			nav ul li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			nav ul li a:hover {
+				background-color:#434343;
+			}
+			
+			nav ul li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			nav ul li:hover > ul {
+				display:block;
+			}
+			
+			nav ul li ul li {
+				position:relative;
+			}
+			
+			nav ul li ul li ul {
+				right:-140px;
+				top:0px;
+			}
 nav.seg{
 	background-color: #a7b4b7;
 	width: 300px;
@@ -42,46 +64,7 @@ nav.terc{
 	
 	
 }
-nav ul{
-	list-style: none;
-}
-nav > ul{
-	display: table;
-	width: 100%
-	position: relative;
-	background: #F0B429;
-}
-nav > ul li{
-	display: table-cell;
-}
 
-nav > ul > li:hover > ul{
-	display: block
-	height: 100%;
-}
-nav > ul > li > ul{
-	display: block;
-	position: absolute;
-	background:#F0B429;
-	left: 0;
-	right: 0;
-}
-nav > ul > li > ul > li a:hover {
-	background:#5da5a2;
-}
-
-
-
-nav > ul li a{
-	color: white;
-	text-decoration: none;
-	display: block;
-	line-height:20px;
-	padding: 20px;  
-	position: relative;
-	text-align: center;
-	
-}
 
 section{
 	
