@@ -16,7 +16,7 @@ h1{
 	
 }
 
-nav.prim{
+nav{
 	background-color: #F0B429;
 	width: 1000px;
 	height: 70px;
@@ -37,27 +37,19 @@ nav.terc{
 	
 	
 }
-nav.prim > ul{
+nav > ul{
 	display: table;
 	width: 100%
 	position: relative;
 }
-nav.prim > ul li{
+nav > ul li{
 	display: table-cell;
 }
 
-nav.prim > ul li a{
+nav > ul li a{
 	color: white;
 }
-nav ul li{
-	list-style-type: none;
-	float: left;
-	padding: 10px;
-	margin: 5px;
-	font-size: 20px;
-	width: 120px;
-	
-}
+
 section{
 	
 	
