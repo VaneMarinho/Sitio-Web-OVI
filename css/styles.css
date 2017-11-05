@@ -70,6 +70,7 @@ td.second{
 	padding: 20px 0 0;
 }
 
+
 .img{
 	text-decoration: none;
 	margin-left: 70px;
@@ -103,5 +104,11 @@ h5{
 	font-size: 15px;
 	text-align: justify;
 	font-style: italic;
+	color: white;
+}
+h6{
+	font-size: 20px;
+	text-align: center;
+	
 	color: white;
 }
