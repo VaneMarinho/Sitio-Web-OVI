@@ -54,6 +54,7 @@ nav > ul{
 nav > ul li{
 	display: table-cell;
 }
+
 nav > ul > li:hover > ul{
 	display: block
 	height: 100%;
@@ -78,6 +79,7 @@ nav > ul li a{
 	text-decoration: none;
 	display: block;
 	line-height:20px;
+	padding: 20px;  
 	position: relative;
 	text-align: center;
 	
