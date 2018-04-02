@@ -311,85 +311,85 @@
 
 				<tr>
 				<td>
-				<p>...</p>
+				<p>Tamaño y formato de las direcciones</p>
 				</td>
 				<td>
-				<p>...</p>
+				<p>32 bits = 2^32 direcciones ˜ 4,3 miles de millones de direcciones, suelen estar disponibles en forma decimal.</p>
 				</td>
 				<td>
-				<p>...</p>
-				</td>
-				</tr>
-
-				<tr>
-				<td>
-				<p>...</p>
-				</td>
-				<td>
-				<p>...</p>
-				</td>
-				<td>
-				<p>...</p>
+				<p>128 bits = 2^128 direcciones ˜ 340 miles de trillones de direcciones, se muestran en forma hexadecimal lo que facilita su lectura, esto no solo combate la creciente escasez de direcciones IP, sino que tambien permite direccionar a todos los dispositivos de una red de forma inequivoca.</p>
 				</td>
 				</tr>
 
 				<tr>
 				<td>
-				<p>...</p>
+				<p>Cabecera IP</p>
 				</td>
 				<td>
-				<p>...</p>
+				<p>Longitud variable de 20-60 bytes, segun las opciones IP existentes.</p>
 				</td>
 				<td>
-				<p>...</p>
-				</td>
-				</tr>
-
-				<tr>
-				<td>
-				<p>...</p>
-				</td>
-				<td>
-				<p>...</p>
-				</td>
-				<td>
-				<p>...</p>
+				<p>Longitud fija de 40 bytes. No existen opciones de cabecera IP. En general, la cabecera IPv6 es mas sencilla.</p>
 				</td>
 				</tr>
 
 				<tr>
 				<td>
-				<p>...</p>
+				<p>Tiempo de vida maximo de la direccion</p>
 				</td>
 				<td>
-				<p>...</p>
+				<p>Gestionadas por DHCP</p>
 				</td>
 				<td>
-				<p>...</p>
-				</td>
-				</tr>
-
-				<tr>
-				<td>
-				<p>...</p>
-				</td>
-				<td>
-				<p>...</p>
-				</td>
-				<td>
-				<p>...</p>
+				<p>Las direcciones IPv6 tienen dos tiempos de vida: el preferido y el valido. El tiempo de vida preferido siempre es <= valido.</p>
 				</td>
 				</tr>
 
 				<tr>
 				<td>
-				<p>...</p>
+				<p>Seguridad</p>
 				</td>
 				<td>
-				<p>...</p>
+				<p>La implementacion de IPsec es opcional.</p>
 				</td>
 				<td>
-				<p>...</p>
+				<p>IPsec esta integrado de forma nativa en IPv6 para autenticar y cifrar los paquetes de datos.</p>
+				</td>
+				</tr>
+
+				<tr>
+				<td>
+				<p>Conexion LAN</p>
+				</td>
+				<td>
+				<p>La interfaz IP utiliza la conexión de LAN para acceder a la red fisica. Existen muchos tipos diferentes; por ejemplo, token ring y Ethernet. Tambien se conoce como la interfaz, enlace o linea fisica.</p>
+				</td>
+				<td>
+				<p>IPv6 puede utilizarse con cualquier adaptador Ethernet y tambien se soporta a traves de Ethernet virtual entre particiones logicas.</p>
+				</td>
+				</tr>
+
+				<tr>
+				<td>
+				<p>Configuracion</p>
+				</td>
+				<td>
+				<p>Debe configurar un sistema recien instalado para que pueda comunicarse con otros sistemas; es decir, deben asignarse rutas y direcciones IP.</p>
+				</td>
+				<td>
+				<p>La configuracion es opcional, segun las funciones requeridas. IPv6 puede utilizarse con cualquier adaptador Ethernet y puede ejecutarse a traves de la interfaz de bucle de retorno.</p>
+				</td>
+				</tr>
+
+				<tr>
+				<td>
+				<p>Conversion de direcciones de red (NAT)</p>
+				</td>
+				<td>
+				<p>Funciones basicas de cortafuegos integradas en TCP/IP, configuradas con System i Navigator.</p>
+				</td>
+				<td>
+				<p>IPv6 no requiere NAT. El mayor espacio de direcciones de IPv6 soluciona el problema de escasez de direcciones y permite una renumeracion mas sencilla.</p>
 				</td>
 				</tr>
 </table>	
