@@ -1,4 +1,6 @@
-
+table{
+	border: 1px solid black;
+}
 body{
 	background-color: #005883;
 	width: 1000px;
