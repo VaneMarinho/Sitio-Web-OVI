@@ -164,7 +164,141 @@
 				<p>8.	Asignación de las extensiones para todas las áreas y personal necesario.</p>
 				<p>9.	Capacitaciones al personal sobre el manejo y ventajas de las llamadas VoIP.</p>
 
+<br> <br> <br>
 
+				<h3>RED INTELIGENTE CON REDES MOVILES </h3> <br>
+				<p>Sobre la red telefonica, hoy en dia, se ofrece no solo el servicio de telefonia basica, sino toda una extensa gama de nuevos y variados servicios que son de utilidad para una gran mayoria de sus usuarios residenciales y de negocios y que, al mismo tiempo, reportan importantes beneficios a los operadores, tanto por el propio coste del servicio como por el incremento en el numero de llamadas y el trafico que genera su utilizacion. Ello es posible gracias a la incorporacion de aplicaciones informaticas sobre nodos conectados a la infraestructura de conmutacion telefonica, que viene a configurar lo que se denomina Red Inteligente o IN (Intelligent Network), aunque mas apropiado seria emplear el termino de inteligencia en la red o network intelligence.</p>
+				<p>A la fecha, las nuevas tecnologias 4G han expandido las posibilidades y las disponibilidad de canales de comunicacion, los equipos  actuales pueden operar simultaneamente amabas redes, dependiendo de la zona que se encuentre el usuario, rapidamente cambia la frecuencia de 3g a 4g, de manera inmediata de esta forma siempre se tendra comunicacion y datos, sin embargo sigue la  limitante de la zona que abarca la antena satelital, en Colombia y en muchas partes rulares al no contara con receptores satelitales cercanos  se dificulta la conexion, en algunos paises, la limitante de la antenas ha  cambiado, ya que la mejor opcion les satelites en la atmosfera terrestre, que puede cubrir aun mas zonas y mejor calidad, dicha opciones se esta implementado poco a poco para poder llegar a mas lugares .</p>
+		<br>	<br>	<p>Mejoramiento de cobertura centro comercial unico</p> <br>
+				<p>En la zona de sotano del sotano del centro comercial unico 1 , en esta zona que esta ubicados almacenes de motocicletas 2 bancos, gimnasio, y alkosto, la señal celular era nula, tanto clientes como empleados, se dificultaba trabajar y comunicarse en esa zona por dispositivos moviles y la opcion wifi no es la solucion, para solucionarlo se instalo un repetidor de señal en la entrada del sotano, el resultado, la señal 3g y 4g funciona muy bien, permitiendo el uso de datos y llamadas a celular.</p>
+			
+				
+
+<br> <br> <br>
+				<h3>PROBLEMATICA UNIVERSIDAD</h3> <br>
+				<p>Continuamos con el problema de modernizar y reorganizar la red para el campus universitario de la universidad estatal tomada como ejemplo en el trabajo colaborativo 1. Ahora en esta segunda parte del ejercicio deberá resolver los siguientes problemas de este caso de aplicación: </p>
+				<p>- La red informatica de la universidad, es una gran red plana, es decir no tiene una buena administracion. </p>
+				<p>- Hay conflictos con las direcciones IP </p>
+				<p>- Se tienen muchos servidores DHCP independientes </p>
+			<br>	<p>Solucion:</p>
+				<p>Con respecto a las Vlans para el caso de mejoras en campus universitario: </p>
+				<p>Primero se entiende que las  Vlans son redes virtuales, al cual se puede asignar un segmento de red especifico, de esta manera, dentro de una red, subdividir direccionamiento y funciones, por ejemplo la red administrativas se configura en una vlan, con parámetros de red y permisos especiales, para el uso de web, carpetas compartidas impresoras en red, para que esto fusione, se requiere un firewall que se creen las vlans que se requieran, despues esto se configura swiches dependiendo del área, en el área administrativa, se asigna un segmento de red y con la configuración ip de cada equipo podrá tener los servicios disponible de la vlan administrativa , mismo ejercicio aplica a redes de sala de computo, y la redes wifi, se crean vlans que permitan navegar y controlar que funciones tendria cada red , un equipo para esta tarea sera presentado a continuacion .</p>
+				<p>MIKROTIK 1100X2AH</p>
+			<br>	<img src="img/col1.png" alt=""/>	<br>
+				<p>MilkroTik RouterOS es un sistema operativo basado en el kernel de Linux 2.6 usado en el ardware de los MicrotikRouterBOARD que es la división de hardware de la marca Mikrotik. Se caracteriza por poseer su propio S.O de fácil configuración. Estos dispositivos poseen la ventaja de tener una relación costo /beneficio muy alta.</p>
+				<p>Ahora, lo que hace interesante a un RouterOS es que puede ser instalado en una computadora, convirtiendola en un router con todas las caracteristicas necesarias: firewall, routing, punto de acceso wireless, administración de ancho de banda, servidor VPN y más.</p>
+			<br>	<p>CONFIGURACION</p>
+				<p>RouterOS soporta varios metodos de configuracion como son:</p>
+				<p>- Acceso local via teclado y monitor</p>
+				<p>- Consola serial con una terminal</p>
+				<p>- Acceso via Telnet y SSH via una red</p>
+				<p>- Una interfaz grafica llamada WinBox</p>
+				<p>Una API para el desarrollo de aplicaciones propias para la configuracion.</p>
+				<p>En caso de no contar con acceso local y existe un problema con las direcciones IP RouterOS soporta una conexion basada en direcciones MAC usando las herramientas customizadas Mac-Telnet y herramientas de Winbox.</p>
+				<p>A Partir de su versión RouterOS v4 agrega el lenguaje de Scripting Lua, que expande las posibilidades para programar y automatizar el sistema.</p>
+				<p>Vamos a ver ahora todos los features que nos brinda RouterOS, ya sea que lo usemos en un RouterBoard o en una PC.</p>
+			<br>	<p>FIREWALL</p>
+				<p>El firewall integrado implementa el filtrado de paquetes y provee funciones de seguridad que son usadas para el manejo del flujo de datos desde y hacia el router. Junto con el NAT, previene el acceso no autorizado a una red conectada directamente. Puede filtrar por direcciones IP, tuerto TCP/UDP, rango de puertos, protocolos, entre otros parametros. </p>
+				<p>Soporta ademas lista de direcciones estaticas y dinamicas y puede interceptar paquetes con un patron definido. Cuenta ademas con soporte para IPv6.</p>
+			<br>	<p>ROUTING</p>
+				<p>RouterOS soporta rutas estaticas y varios protocolos de rutas dinamicas.</p>
+				<p>Para IPv4 soporta RIPv1 y v2, OSPFv2, BGPv4</p>
+				<p>Para IPv6 soporta RIPng, OSPFVv3 y BGP</p>
+				<p>Tambien soporta VRF, politicas basadas en rutas, rutas basadas en interfaz y ECMP. Se puede utilizar el Firewall para marcar los paquetes que lleguen desde una conexion determinada y que estos salgan por un proveedor distinto.</p>
+			<br>	<p>MPLS</p>
+				<p>MPLS (MultiprotocolLabelSwitching), puede ser utilizado para reemplazar los paquetes IP salientes, la decision del reenvio ya no se realiza en base al header IP o tabla de enrutamiento, sino en etiquetas adjuntadas al paquete. Este acercamiento acelera el reenvio del paquete porque la busqueda del destino es mas simple que la busqueda del  enrutamiento. La Eficiencia en el proceso de reenvio es el mayor beneficio de MPLS.</p>
+				<p>Algunos de los features de MPLS soportados son:</p>
+				<p>- Enlazado de etiquetas estaticas para IPv4</p>
+				<p>- Protocolo de distribucion de etiquetas para IPv4</p>
+				<p>- Tuneles RSVP</p>
+				<p>- Descubrimiento automatico y basado en la señalizacion VPLSMP-BGP</p>
+				<p>- MPLS IP VPN basado en MP-BGP</p>
+			<br>	<p>VPN</p>
+				<p>RouterOS soporta diversos metodos de conexion VPN para establecer una conexion segura sobre redes abiertas o internet. Estos metodos son:</p>
+				<p>- IPSec</p>
+				<p>- Tuneles de punto a punto (OpenVPN, PPTP, PPPoE, L2TP)</p>
+				<p>- Features avanzados PPP (MLPPP, BCP)</p>
+				<p>- Tuneles simples (IPIP, EoIP)</p>
+				<p>- Soporte a tuneles 6 a 4 (IPv6 sobre IPv4)</p>
+				<p>- VLAN</p>
+				<p>- VPN basado en MPLS</p>
+				<p>Nos permite interconectar de forma segura varias redes permitiendonos interconectar varias localidades, usar los recursos de la organizacion mientras nos movilizamos y aumentar la seguridad de nuestras conexiones inalambricas.</p>
+			<br>	<p>CONEXIONES INALAMBRICAS</p>
+				<p>Las siguientes son algunas de las tecnologias wireless soportadas:</p>
+				<p>- Punto de acceso y cliente inalambrico IEEE802.11a/b/g/n</p>
+				<p>- Protocolos propietarios Nstreme y Nstreme2</p>
+				<p>- Sondeo de clientes</p>
+				<p>- RTS/CTS</p>
+				<p>- Sistema de distribucion inalambrica</p>
+				<p>- Punto de acceso virtual</p>
+				<p>- Encriptacion WEP, WPA, WPA2</p>
+				<p>- Lista de control de acceso</p>
+				<p>- WMM</p>
+				<p>- Protocolo de ruteo inalambrico MME</p>
+				<p>- Entre otros</p>
+				<p>Los protocolos Nstreme le permiten a RouterOS extender el alcance y la velocidad de la conexion inalambrica cuando se utiliza los routers de Mikrotik en cada extremo. Soporta ademas NStreme dual que permite utilizar dos antenas en cada extremo, una para recibir y otra para enviar.</p>
+			<br>	<p>HOTSPOT</p>
+				<p>La puerta de enlace de Mikrotik Hotspot permite crear una red de acceso publico para usuarios alambricos e inalambricos. Al usuario le sera presentada una pantalla de login cuando accede al navegador web. Una vez provee credenciales validos se le dara acceso a internet. No es necesaria ninguna instalacion de un software, el hotspot dirigira cualquier conexion al formulario de login. Podemos administrar ademas las conexiones de los usuarios, uso de ancho de banda, tiempo de conexion y mas.</p>
+				<p>Hotspot soporta autenticacion standard de servidores RADIUS o el administrador de usuarios integrados que nos permite una administracion centralizada de todos los usuarios en nuestra red.</p>
+			<br>	<p>WEB PROXY</p>
+				<p>RouterOS cuenta con un servidor proxy para el almacenamiento en cache de recursos en la web, aumentando la velocidad de acceso entregando al cliente archivos en cache a la velocidad interna de la red. RouterOS provee las siguientes caracteristicas de un servidor proxy:</p>
+				<p>- Proxy HTTP regular</p>
+				<p>- Proxy transparente</p>
+				<p>- Lista de acceso por fuente, destino, URL o metodo solicitado</p>
+				<p>- Almacenamiento del cache en Discos externos</p>
+				<p>- Soporte a proxy SOCKS</p>
+				<p>Lista de acceso cache para especificar el recursos deben ser accedidos directamente y cuales via otro servidor, entre otros.</p>
+				<p>Finalmente RouterOS nos provee una serie de herramientas para administrar nuestra red y para optimizar las tareas. Algunas de estas son:</p>
+				<p>- Prueba de ancho de banda</p>
+				<p>- SSH</p>
+				<p>- Herramientas para el envio de Email y SMS</p>
+				<p>- Tabla de conexiones activas</p>
+				<p>- Servidor TFTP</p>
+				<p>- Servidor NTP</p>
+				<p>- SNMP</p>
+				<p>- RADIUS</p>
+				<p>RouterOS le agrega diversas funcionalidades a los mismo routers de Mikrotik como a cualquier PC que pudieramos tener por ahi sin uso y, que con este sistema operativo le podamos implementar alguna funcion. Y hablando directamente de los RouterBoards de Mikrotik, estos han mostrado ser eficientes y robustos en un ambiente critico de produccion.</p>
+		<br>	<br>	<p>RED INTELIGENTE EN EL CALL CENTER</p> <br>
+			<br>	<img src="img/col2.png" alt=""/>	<br>
+				<p>Figura 1. Tomada de https://www.elblogdegerman.com/2013/06/05/atencion-al-cliente-en-entornos-2-0-del-call-center-al-contact-center-multicanal/</p>
+			<br>	<p>Se realizara la implementación de una red inteligente en el Call Center de la Universidad, tambien se van a  interconectar todos los edificios de  las Facultades, Rectoria, administrativos y laboratorios, de manera que cada vez que ingrese una llamada, un sistema de respuesta automatico reenviara la llamada a la extension correspondiente o ingresara al Call Center, donde los operadores resolveran las solicitudes que se esten realizando.</p>
+				<p>Se debe contar con un enrutador inteligente dentro de las herramientas del Call Center. El enrutador inteligente es quien ramifica el destino de la llamada en la direccion correcta, creando diferentes colas de llamadas para distribuirlas a los operadores cuyas capacidades correspondan a las necesidades especificas del cliente, dispone de la funcion que permite gestionar respuestas automatizadas mediante las IVR’s.</p>
+			<br>	<p>Infraestructura tecnologica.</p>
+				<p>Para continuar la implementacion del Sistema de Call Center instalaremos dos elementos:</p>
+				<p>El primer elemento de un sistema de Call Center es la central telefonica cuyo objetivo es conmutar las llamadas entre los clientes y los operadores.</p>
+				<p>Debe tener ACD (Automatic Call Distribution) para tener estadistica de la entrada de llamadas, marcadores progresivos o predictivo para hacer llamadas, grabacion de las llamadas y CTI que permite integrarse con la base de datos del cliente. (DYALOGO CBX).</p>
+				<p>Se realiza la configuracion de las “campañas”, es muy importante que el sistema tenga la capacidad de asignar llamadas a los operadores en igual cantidad, de manera uniforme y por otra parte que permita tener estadisticas como tiempo promedio de la llamada, llamadas perdidas, tiempos promedio de abandono, etc. El servidor ACD debe tener una dirección IP fija y reservada dentro de la red de datos y conectado al PBX.</p>
+				<p>Sistema IVR: </p>
+			<br>	<img src="img/col3.png" alt=""/>	<br>
+				<p>Figura 2 - flujo IVR. Tomada de http://www.telefonoip.it/menu-ivr-avanzati/</p> <br>
+				<p>El IVR (Interactive Voice Response) es un Sistema de Audio Respuesta para agilizar la atencion de llamadas entrantes. Se contestan las llamadas de manera automatica, con un mensaje de voz que dicen "Gracias por llamar a la universidad Nacional Abierta y A Distancia, si conoce el numero de la extension marquelo a hora de lo contrario marque 654 para biblioteca, marque 656 para registro y control, marque 657 para soporte, etc. Marque 000 para ser atendido por uno de nuestros operadores, marque 111 para regresar al menu anterior". </p>
+				<p>El IVR es clave para suministrar informacion repetitiva 7 dias a la semana, 365 dias al año. Esta aplicacion se encuentra incluida en la solucion DYALOGO CBX. </p>
+				<p>Marcador progresivo, power o predictivo:</p>
+				<p>Hay muchos esquemas de marcacion de llamadas, basicamente son los mecanismos definidos para incrementar la velocidad.</p>
+				<p>Sistema de gestion:Este software es el encargado de registrar lo que pasa dentro de las llamadas, es decir, cuando la llamada en contestada, extension solicitada, encuestas de satisfaccion, etc.todo lo que se defina como exito dentro de una llamada.</p>
+				<p>De este tipo de software podemos tener las estadisticas de Bases de datos de los estudiantes, personal de planta y aspirantes:</p>
+				<p>Creada en un archivo de Excel, Access, MS SQL o cualquier repositorio donde este la informacion de los estudiantes, personal de planta y aspirantes con codigo, direccion, nombre, numeros telefonicos de contacto. Preferiblemente el equipo debe tener una dirección IP fija y reservada dentro de la red de datos.</p>
+				<p>Adicionalmente a la infraestructura tener la plataforma de callcenter dentro de la universidad tal como DYALOGO CBX y DYALOGO CRM.</p>
+			<br>	<img src="img/col4.png" alt=""/>	<br>
+				<p>Tambien esta pensado en integrarse al servicio de Telefonia red Inteligente con los numeros 01800 en nuestro pais, asi podemos aprovechar algunas ventajas como:</p>
+				<p>- Autenticacion de llamadas: Posibilidad de llevar a cabo una validacion de la persona que llama mediante una clave de seguridad.</p>
+				<p>- Enrutamiento por menu: Con este servicio el usuario podra dirigirse a la seccion adecuada conforme con sus necesidades.</p>
+				<p>- Enrutamiento por horario: funcion donde se puede escoger en cual linea telefonica desea atender las llamadas dependiendo del dia y la hora en que son realizadas.</p>
+				<p>- Llamadas nacionales: Cubrir la mayor parte del pais con un solo numero nacional.</p>
+			<br>	<p>Infraestructura fisica.</p>
+			<br>	<img src="img/col5.png" alt=""/>	<br>
+				<p>Figura 3. Call Center. Tomada de https://medium.com/@aderesoapps/el-futuro-de-las-redes-sociales-en-la-industria-de-los-call-center-81059907a7b3</p>
+				<p>- Lineas telefonicas: Son los recursos de las empresas de telecomunicaciones por las que se reciben o hacen llamadas. </p>
+				<p>- Canal de internet o de datos: Es vital tener internet para acceso a aplicaciones de cliente, para soporte remoto de los usuarios y para hacer llamadas utilizando proveedores de voz sobre IP. </p>
+				<p>- Switch LAN QoS: En la actualidad la mayoria de call center son VoIP, eso que quiere decir, que el mismo cable donde se conectan los PC´s a internet o a la red tambien transporta la voz de las llamadas.  El switch lo que hace es conectar todos los equipos que componen el Call Center. Es muy importante que tenga QoS o calidad de servicio para que la voz no se escuche entrecortada o con ecos.</p>
+				<p>- Cableado estructurado y electrico: Son los cables que conectan todos los computadores y como se alimentan de energia los computadores de los operadores.</p>
+				<p>- Puesto de operador: Debe tener un computador con procesador Intel preferiblemente y una diadema de computador USB. </p>
+				
+
+
+
+
+<br> <br> <br>
 
 				<h3>Referencias Web</h3>
 				<h5>1- Asterisk IP/PBX, recuperado de http://www.perulinux.pe/soluciones/servidor-de-telefonia-ip/asterisk-ippbx/</h5>
